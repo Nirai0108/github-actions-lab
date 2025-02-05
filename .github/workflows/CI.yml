@@ -3,7 +3,7 @@ name: CI
 run-name: ${{ github.actor }} is testing out Github Actions
 #Controls when the workflow runs
 on:
-#Triggers the workflow on push or pull request events but only for the "main" branch
+#Triggers the workflow on push or pull request events but only for  the "main" branch
   push:
       branches: [ "main" ]
   pull_request:
