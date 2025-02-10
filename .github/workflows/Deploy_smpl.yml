@@ -2,7 +2,7 @@
 #Deploy action
 
 # GitHub displays the names of your workflows on your repository's actions page
-name: Bootcamp Deploy Action! 
+name: Bootcamp Deploy Action Sample! 
 
 # Controls when the workflow will run
 on:   
