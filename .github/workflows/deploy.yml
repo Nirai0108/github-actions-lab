@@ -23,7 +23,7 @@ jobs:
     steps:
     #Runs a single command using the runners shell
       - name: Deploying to Dev for ${{ inputs.ghhandle }}!
-        run: "echo I just deployed to Dev"
+        run: echo "I just deployed to Dev"
   DeployToProd:
     runs-on: windows-latest
     needs: DeployToDev
