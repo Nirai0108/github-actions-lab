@@ -30,7 +30,7 @@ jobs:
     environment: Production
     steps:
       - name: Deploying to Production for ${{ inputs.ghhandle }}!
-        run: "echo I just deployed to Prod"
+        run: echo "I just deployed to Prod"
       
   
   
